@@ -29,7 +29,7 @@ const Projects = () => {
       id: 2,
       title: "ChoreQuest",
       subtitle: "Gamified Household Management App",
-      description: "An innovative household management application that revolutionizes chore management through RPG-style gamification. Features sophisticated parent/child account systems, dynamic leveling mechanics, and immersive fantasy themes. Currently in development for App Store release.",
+      description: "An innovative household management application that revolutionizes chore management through RPG-style gamification. Features sophisticated parent/child account systems, dynamic leveling mechanics, and immersive fantasy themes. Previously in development for App Store release; the project is now paused but represents significant progress in architecture, UI, and gameplay systems.",
       image: "/ChoreQuestIcon.jpeg",
       technologies: ["React Native", "Supabase", "Gamification", "TypeScript", "iOS"],
       features: [
@@ -45,7 +45,7 @@ const Projects = () => {
         github: "https://github.com/washford226/chores-quest",
         appStore: null
       },
-      status: "development",
+      status: "paused",
       category: "Mobile App"
     }
   ];
@@ -54,7 +54,8 @@ const Projects = () => {
     const statusConfig = {
       live: { text: "Live", classes: "bg-green-100 text-green-800" },
       development: { text: "In Development", classes: "bg-yellow-100 text-yellow-800" },
-      completed: { text: "Completed", classes: "bg-blue-100 text-blue-800" }
+      completed: { text: "Completed", classes: "bg-blue-100 text-blue-800" },
+      paused: { text: "Paused", classes: "bg-slate-100 text-slate-800" }
     };
     
     const config = statusConfig[status] || statusConfig.completed;
@@ -78,24 +79,24 @@ const Projects = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
-                icon: 'fas fa-rocket',
-                title: 'Production Experience',
-                description: 'Successfully deployed and maintain live applications with real users on the App Store'
+                icon: 'fas fa-vial',
+                title: 'Quality Mindset',
+                description: 'Approach features with a tester\'s mindset, focusing on edge cases, usability, and reliability'
+              },
+              {
+                icon: 'fas fa-robot',
+                title: 'Test Automation',
+                description: 'Experience writing automated tests with Jest and using tooling to prevent regressions'
               },
               {
                 icon: 'fas fa-layer-group',
-                title: 'Full-Stack Skills',
-                description: 'End-to-end development from database design to user interface and deployment'
+                title: 'Full-Stack Understanding',
+                description: 'Understand how APIs, databases, and UIs fit together to design better tests'
               },
               {
-                icon: 'fas fa-mobile-alt',
-                title: 'Mobile Expertise',
-                description: 'Cross-platform mobile development with React Native and native iOS features'
-              },
-              {
-                icon: 'fas fa-brain',
-                title: 'Modern Technologies',
-                description: 'Experience with AI integration, cloud services, and contemporary development practices'
+                icon: 'fas fa-sync-alt',
+                title: 'Collaboration & Feedback',
+                description: 'Work closely with developers to reproduce bugs, triage issues, and continuously improve quality'
               }
             ].map((item, index) => (
               <div key={index} className="text-center">
@@ -110,7 +111,7 @@ const Projects = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">Professional Projects</h2>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
-            Commercial-grade mobile applications built for real-world deployment and App Store distribution
+            Real applications I\'ve built and tested end-to-end, used to demonstrate both development and QA skills
           </p>
         </div>
 
@@ -198,7 +199,7 @@ const Projects = () => {
 
         <div className="text-center gradient-bg-accent p-12 rounded-2xl text-white shadow-2xl">
           <h3 className="text-2xl lg:text-3xl font-bold mb-4">Let's Start a Conversation</h3>
-          <p className="text-lg mb-8 opacity-90">I'm currently seeking opportunities as a Software Developer and would love to hear about your projects. Whether you're looking for a full-stack developer, mobile app specialist, or someone with experience in modern web technologies, I'm here to help bring your ideas to life.</p>
+          <p className="text-lg mb-8 opacity-90">I'm currently seeking opportunities in QA and Software Quality Engineering and would love to hear about your team. Whether you need someone to design and execute tests, help prevent regressions, or bring a QA mindset to a development team, I can help improve the reliability of your applications.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a 
               href="mailto:williamashford22604@gmail.com"

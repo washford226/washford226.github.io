@@ -27,13 +27,15 @@ const Hero = () => {
               William Ashford
             </h1>
             <h2 className="text-2xl lg:text-3xl font-medium mb-6 text-slate-200">
-              Full-Stack Developer
+              QA Engineer & Software Developer
             </h2>
             <p className="text-lg lg:text-xl leading-relaxed mb-8 text-slate-300">
-              I create scalable, user-centered applications with clean architecture. 
-              Experienced in React, Node.js, and mobile development with a proven track 
-              record of launching production-ready software including my iOS app
-              <strong className="text-blue-400"> Shareable Meals</strong> on the App Store.
+              I focus on building and testing reliable, user-centered applications. My
+              full-stack background in React, Node.js, and mobile development helps me
+              design effective test cases, uncover edge cases, and collaborate closely
+              with developers. I launched and maintain the iOS app
+              <strong className="text-blue-400"> Shareable Meals</strong> on the App Store,
+              where I handled both development and quality.
             </p>
             
             <div className="flex flex-wrap gap-2 mb-8 justify-center lg:justify-start">

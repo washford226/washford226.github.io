@@ -7,7 +7,7 @@ const About = () => {
     { category: 'Databases & Cloud', items: ['Supabase', 'PostgreSQL', 'MySQL', 'SQLite'] },
     { category: 'Cloud & Deployment', items: ['Vercel', 'Supabase Edge Functions'] },
     { category: 'Programming Languages', items: ['Java', 'Python', 'C#'] },
-    { category: 'Testing & Tools', items: ['Jest', 'Git/GitHub', 'Maven', 'Agile/Scrum'] }
+    { category: 'Testing & Tools', items: ['Jest', 'Manual Testing', 'Test Case Design', 'Git/GitHub', 'Maven', 'Agile/Scrum'] }
   ];
 
   return (
@@ -16,7 +16,7 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">About Me</h2>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
-            Driven Full-Stack Developer with a passion for creating scalable solutions
+            QA-focused engineer with a strong full-stack development background
           </p>
         </div>
 
@@ -24,16 +24,18 @@ const About = () => {
           <div>
             <h3 className="text-2xl lg:text-3xl font-semibold text-white mb-6">Professional Summary</h3>
             <p className="text-lg leading-relaxed text-slate-300 mb-6">
-              I'm a driven Full-Stack Developer with a strong foundation in computer science and 
-              hands-on experience developing full-stack and mobile applications. I specialize in 
-              React, Node.js, TypeScript, and modern database solutions including Supabase and PostgreSQL, 
-              with proven success building and deploying production-ready software.
+              I'm a QA-focused engineer with a strong foundation in computer science and hands-on
+              experience building and testing full-stack and mobile applications. I work with React,
+              Node.js, TypeScript, and modern database solutions including Supabase and PostgreSQL,
+              using that understanding of how systems are built to test them more effectively and
+              catch issues early.
             </p>
             <p className="text-lg leading-relaxed text-slate-300 mb-8">
-              My expertise includes API integration, cloud deployment, testing methodologies, and Agile 
-              development practices. I'm passionate about creating scalable, maintainable, and user-centered 
-              applications with clean architecture. Currently seeking opportunities as a Software Developer 
-              while also available for freelance projects.
+              My expertise includes test planning, writing and executing test cases, API and UI testing,
+              and Agile development practices. I'm passionate about quality, usability, and building
+              strong feedback loops between development and testing. I'm currently seeking opportunities
+              in QA and Software Quality Engineering roles, leveraging my development background to help
+              teams ship reliable software.
             </p>
 
             <div className="mb-8">
@@ -85,7 +87,8 @@ const About = () => {
                   'Software Construction',
                   'Database Design',
                   'API Development',
-                  'Mobile App Architecture'
+                  'Mobile App Architecture',
+                  'Software Testing & QA Principles'
                 ].map((knowledge, index) => (
                   <span key={index} className="bg-purple-600/20 text-purple-300 border border-purple-500/30 px-3 py-2 rounded-full text-sm font-medium hover:bg-purple-600/30 transition-all duration-300">
                     {knowledge}
