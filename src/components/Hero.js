@@ -27,19 +27,17 @@ const Hero = () => {
               William Ashford
             </h1>
             <h2 className="text-2xl lg:text-3xl font-medium mb-6 text-slate-200">
-              QA Engineer & Software Developer
+              Software Engineer | Full-Stack Developer | QA & Test Automation
             </h2>
             <p className="text-lg lg:text-xl leading-relaxed mb-8 text-slate-300">
-              I focus on building and testing reliable, user-centered applications. My
-              full-stack background in React, Node.js, and mobile development helps me
-              design effective test cases, uncover edge cases, and collaborate closely
-              with developers. I launched and maintain the iOS app
-              <strong className="text-blue-400"> Shareable Meals</strong> on the App Store,
-              where I handled both development and quality.
+              Detail-oriented Software Engineer with experience developing full-stack applications
+              and ensuring software quality through manual testing, API validation, and automated
+              testing. Skilled in React Native, TypeScript, Node.js, PostgreSQL, Git, Postman,
+              and Jest, with a strong focus on building reliable software and improving product quality.
             </p>
             
             <div className="flex flex-wrap gap-2 mb-8 justify-center lg:justify-start">
-              {['React', 'Node.js', 'PostgreSQL', 'React Native', 'TypeScript'].map((tech) => (
+              {['React', 'React Native', 'TypeScript', 'Node.js', 'Postman', 'Jest'].map((tech) => (
                 <span key={tech} className="glass px-4 py-2 rounded-full text-sm border border-slate-600/30 text-slate-200 hover:border-blue-400/50 transition-all duration-300">
                   {tech}
                 </span>
