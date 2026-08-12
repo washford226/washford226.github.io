@@ -31,7 +31,7 @@ const Contact = () => {
         <div className="mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">Let's Start a Conversation</h2>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            I'm currently seeking opportunities in QA and Software Quality Engineering and would love to hear about your team. Whether you need someone to design and execute test plans, support automation efforts, or bring a strong quality mindset to a development team, I'd love to connect.
+            I'm currently seeking opportunities in software engineering, full-stack development, QA, and test automation roles where I can build reliable features and improve product quality through strong validation practices.
           </p>
         </div>
 
@@ -42,8 +42,7 @@ const Contact = () => {
               <span className="text-green-400 font-semibold text-lg">Available for New Opportunities</span>
             </div>
             <p className="text-slate-300 leading-relaxed max-w-2xl mx-auto">
-              Currently open to full-time and contract roles focused on QA or software quality, 
-              especially where I can combine testing with my React, Node.js, and mobile development background.
+              Open to full-time and contract opportunities focused on software development, QA, and test automation where I can contribute both implementation skills and a quality-first mindset.
             </p>
           </div>
 
@@ -111,7 +110,7 @@ const Contact = () => {
         <div className="gradient-bg-accent p-8 rounded-2xl text-white shadow-2xl">
           <h3 className="text-2xl font-bold mb-4">Ready to Work Together?</h3>
           <p className="text-lg mb-6 opacity-90">
-            For QA or software development opportunities, please feel free to reach out directly via email. 
+            For software engineering, full-stack development, QA, or test automation opportunities, please feel free to reach out directly via email.
             For any freelance work, we can coordinate through whatever platform we connected on.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

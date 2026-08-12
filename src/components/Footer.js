@@ -1,8 +1,6 @@
 import React from 'react';
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
-
   const quickLinks = [
     { name: 'About', href: '#about' },
     { name: 'Projects', href: '#projects' },
@@ -119,9 +117,6 @@ const Footer = () => {
 
         <div className="border-t border-slate-700/30 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-slate-400 text-sm">
-              &copy; {currentYear} William Ashford. All rights reserved.
-            </p>
             <div className="flex items-center gap-4 text-slate-400 text-sm">
               <span>Built with React & Tailwind CSS</span>
               <span>•</span>

@@ -2,12 +2,12 @@ import React from 'react';
 
 const About = () => {
   const skills = [
-    { category: 'Frontend & Mobile', items: ['React', 'React Native', 'TypeScript', 'JavaScript'] },
-    { category: 'Backend & APIs', items: ['Node.js', 'Express', 'REST APIs'] },
-    { category: 'Databases & Cloud', items: ['Supabase', 'PostgreSQL', 'MySQL', 'SQLite'] },
-    { category: 'Cloud & Deployment', items: ['Vercel', 'Supabase Edge Functions'] },
-    { category: 'Programming Languages', items: ['Java', 'Python', 'C#'] },
-    { category: 'Testing & Tools', items: ['Jest', 'Manual Testing', 'Test Case Design', 'Git/GitHub', 'Maven', 'Agile/Scrum'] }
+    { category: 'Testing & QA', items: ['Regression Testing', 'API Testing', 'Functional Testing', 'Manual Testing', 'Test Case Design & Execution', 'Bug Tracking & Reporting', 'Postman', 'Jest'] },
+    { category: 'Frontend & Mobile', items: ['React', 'React Native', 'Vue.js', 'TypeScript', 'JavaScript', 'HTML', 'CSS', 'TailwindCSS'] },
+    { category: 'Backend & Databases', items: ['Node.js', 'Express', 'REST APIs', 'PostgreSQL', 'MySQL', 'SQLite', 'SQL Server', 'SQL', 'Supabase'] },
+    { category: 'Development Tools & Workflow', items: ['Git/GitHub', 'Apache Maven', 'CI/CD', 'Agile/Scrum', 'Vercel'] },
+    { category: 'Programming Languages', items: ['JavaScript', 'TypeScript', 'Python', 'Java', 'C#'] },
+    { category: 'Core Knowledge', items: ['SDLC', 'OOP', 'Data Structures & Algorithms', 'Debugging & Root Cause Analysis', 'Software Development Life Cycle'] }
   ];
 
   return (
@@ -16,7 +16,7 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">About Me</h2>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
-            QA-focused engineer with a strong full-stack development background
+            Detail-oriented software engineer with full-stack development experience and a strong QA/testing foundation
           </p>
         </div>
 
@@ -24,18 +24,16 @@ const About = () => {
           <div>
             <h3 className="text-2xl lg:text-3xl font-semibold text-white mb-6">Professional Summary</h3>
             <p className="text-lg leading-relaxed text-slate-300 mb-6">
-              I'm a QA-focused engineer with a strong foundation in computer science and hands-on
-              experience building and testing full-stack and mobile applications. I work with React,
-              Node.js, TypeScript, and modern database solutions including Supabase and PostgreSQL,
-              using that understanding of how systems are built to test them more effectively and
-              catch issues early.
+              Detail-oriented Software Engineer with experience developing full-stack applications
+              and ensuring software quality through manual testing, API testing, and automated testing.
+              Skilled in React Native, TypeScript, Node.js, PostgreSQL, Git, Postman, and Jest,
+              with strong analytical and problem-solving skills for building scalable, reliable applications.
             </p>
             <p className="text-lg leading-relaxed text-slate-300 mb-8">
-              My expertise includes test planning, writing and executing test cases, API and UI testing,
-              and Agile development practices. I'm passionate about quality, usability, and building
-              strong feedback loops between development and testing. I'm currently seeking opportunities
-              in QA and Software Quality Engineering roles, leveraging my development background to help
-              teams ship reliable software.
+              My work combines front-end and back-end development with quality validation, helping me
+              catch defects early, improve reliability, and support better product outcomes. I enjoy
+              solving real-world software problems while continuing to strengthen both my development
+              and QA/testing skills in collaborative, fast-paced environments.
             </p>
 
             <div className="mb-8">
